@@ -11,7 +11,7 @@ export const Container = styled.section`
 `
 export const Banner = styled.div`
   width: 70rem;
-  height: 12.5rem;
+  height: 13.375rem;
   background-color: var(--red);
   color: var(--white);
   text-transform: uppercase;
@@ -56,19 +56,24 @@ export const Banner = styled.div`
     border-radius: 0 10px 10px 0;
   }
 
-  .banner-image > button {
+  .banner-image > a {
     background-color: var(--red);
     color: var(--white);
     text-transform: uppercase;
     font-size: 0.75rem;
     letter-spacing: 0.031rem;
+    text-decoration: none;
     border: none;
     border-radius: 10px;
     padding: 1rem 1.8rem;
     cursor: pointer;
 
     position: relative;
-    top: 73px;
-    left: 174px;
+    bottom: 110px;
+    left: 182px;
+
+    &:hover {
+      background-color: #e84e0ed1;
+    }
   }
 `

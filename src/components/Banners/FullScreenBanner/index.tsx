@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { Container, Banner } from './styles'
+import Link from 'next/link'
 
 const FullScreenBanner = () => {
   return (
@@ -19,9 +20,10 @@ const FullScreenBanner = () => {
           <Image
             src={'/banners/planner.png'}
             alt="Imagem que contém partes de um lápis e um papel com desenho de uma planta"
-            fill
+            width={551}
+            height={214}
           />
-          <button>Acessar ferramenta</button>
+          <Link href={'#'}>Acessar ferramenta</Link>
         </div>
       </Banner>
     </Container>
