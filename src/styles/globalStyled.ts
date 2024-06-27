@@ -1,9 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+'use client'
+import { createGlobalStyle } from 'styled-components'
 
-html, body, div, span, applet, object, iframe,
+const GlobalStyle = createGlobalStyle`
+  html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -30,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background-color: white;
 }
 ol, ul {
 	list-style: none;
@@ -48,17 +48,22 @@ table {
 }
 
 :root {
-  --red: #E84E0E 
---red-dark: #BA3E0B
---red-light: #FDEDE7
---gray: #F2F2F2
---gray-02: #FAFAFA
---gray-03: #F5F5F5
---gray-05: #D9D9D9
---gray-06: #BFBFBF
---gray-08: #595959
---gray-09: #434343
---black: #000000
---body-font: 'pt', sans;
---max-padding: 2rem;
+  --red: #E84E0E; 
+  --red-dark: #BA3E0B;
+  --red-light: #FDEDE7;
+  --white: #FFFF;
+  --gray: #F2F2F2;
+  --gray-02: #FAFAFA;
+  --gray-03: #F5F5F5;
+  --gray-04: #F0F0F0;
+  --gray-05: #D9D9D9;
+  --gray-06: #BFBFBF;
+  --gray-08: #595959;
+  --gray-09: #434343;
+  --black: #000000;
+  --body-font: 'pt', sans;
+  --max-padding: 2rem;
 }
+`
+
+export default GlobalStyle

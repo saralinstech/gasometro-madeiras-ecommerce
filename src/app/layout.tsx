@@ -1,8 +1,10 @@
+/* eslint-disable camelcase */
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import '../styles/globals.css'
+import { PT_Sans } from 'next/font/google'
+import Header from '@/components/Header'
+import GlobalStyle from '@/styles/globalStyled'
 
-const inter = Inter({ subsets: ['latin'] })
+const pt = PT_Sans({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -16,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={pt.className}>
+        <GlobalStyle />
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
