@@ -58,6 +58,7 @@ table {
   --gray-04: #F0F0F0;
   --gray-05: #D9D9D9;
   --gray-06: #BFBFBF;
+  --gray-07: #B0B0B0;
   --gray-08: #595959;
   --gray-09: #434343;
   --black: #000000;

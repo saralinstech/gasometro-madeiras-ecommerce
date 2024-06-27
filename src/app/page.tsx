@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import Categories from '@/components/Categories'
 import FullScreenBanner from '@/components/Banners/FullScreenBanner'
 import DoubleBanner from '@/components/Banners/DoubleBanner'
+import NewsLetter from '@/components/NewsLetter'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FullScreenBanner />
       <DoubleBanner />
       <p>oi mundo</p>
+      <NewsLetter />
     </main>
   )
 }
