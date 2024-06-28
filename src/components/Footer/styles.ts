@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
-export const Container = styled.footer`
+export const Container = styled.section`
+  max-width: var(--max-width);
+  margin: var(--margin-global);
   height: 23.625rem;
   padding: 5rem;
-  background-color: var(--gray-03);
   color: var(--gray-08);
 
   display: flex;
@@ -111,6 +112,7 @@ export const Container = styled.footer`
       border-radius: 8px;
       width: 15.938rem;
       height: 2.125rem;
+      padding: 0 0.75rem;
     }
   }
 
@@ -141,4 +143,11 @@ export const SocialMediaLink = styled.a`
   svg {
     width: 1rem;
   }
+`
+export const Wrapper = styled.footer`
+  width: 100vw;
+  background-color: var(--gray-03);
+
+  display: flex;
+  justify-content: center;
 `

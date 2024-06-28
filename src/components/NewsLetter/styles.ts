@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
   width: 100%;
+  max-width: var(--max-width);
+  margin: var(--margin-global);
   height: 7.5rem;
-  background-color: var(--red);
 
   display: flex;
   justify-content: space-evenly;
@@ -25,7 +26,7 @@ export const Container = styled.header`
   }
 `
 export const Form = styled.form`
-  width: 20rem;
+  width: fit-content;
   height: 2.5rem;
 
   display: flex;
@@ -58,4 +59,11 @@ export const Form = styled.form`
       border: 1px solid transparent;
     }
   }
+`
+export const Wrapper = styled.section`
+  width: 100vw;
+  background-color: var(--red);
+
+  display: flex;
+  justify-content: center;
 `
