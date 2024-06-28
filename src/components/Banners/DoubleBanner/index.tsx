@@ -1,5 +1,6 @@
 'use client'
 
+import Wrapper from '@/components/_ui/Wrapper'
 import HalfScreenBanner from '../HalfScreenBanner'
 import { Container } from './styles'
 
@@ -23,10 +24,12 @@ const Banner2 = {
 
 const DoubleBanner = () => {
   return (
-    <Container>
-      <HalfScreenBanner {...Banner1} />
-      <HalfScreenBanner {...Banner2} />
-    </Container>
+    <Wrapper>
+      <Container>
+        <HalfScreenBanner {...Banner1} />
+        <HalfScreenBanner {...Banner2} />
+      </Container>
+    </Wrapper>
   )
 }
 export default DoubleBanner

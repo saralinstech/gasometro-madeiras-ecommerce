@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
 export const Container = styled.nav`
-  color: var(--gray-02);
+  width: 100%;
+  max-width: var(--max-width);
+  margin: var(--margin-global);
   height: 4rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
-  border-bottom: 1px solid var(--gray-06);
+  color: var(--gray-02);
 
   display: flex;
   justify-content: center;
@@ -27,11 +28,19 @@ export const Page = styled.li`
     outline-color: transparent;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-weight: 400;
 
     &:hover {
       color: var(--red);
     }
   }
+`
+export const Wrapper = styled.section`
+  width: 100vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
+  border-bottom: 1px solid var(--gray-06);
+
+  display: flex;
+  justify-content: center;
 `
