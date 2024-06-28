@@ -64,7 +64,7 @@ table {
   --black: #000000;
   --body-font: 'pt', sans;
   --margin-global: 0 7rem;
-  --max-width: 1217px;
+  --max-width: 1118px;
 }
 `
 
