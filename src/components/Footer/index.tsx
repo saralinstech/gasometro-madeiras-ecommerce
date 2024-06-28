@@ -81,14 +81,15 @@ const Footer = () => {
             <span className="container-footer-informations">
               <p>Gasômetro Madeiras 2024. Todos os direitos reservados.</p>
               <p>
-                <strong>Endereço:</strong> Av. Dinamarca, 69 - V. Santa Terezinha
-                - São José dos Campos - SP CEP:12.231-200 CNPJ: 50.763.606/0001-57
+                <strong>Endereço:</strong> Av. Dinamarca, 69 - V. Santa
+                Terezinha Terezinha - São José dos Campos - SP CEP:12.231-200
+                CNPJ: 50.763.606/0001-57
               </p>
               <p>
-                <strong>Gasômetro Madeiras | Ramuth & Ramuth LTDA</strong> - Loja
-                especializada em máquinas para marcenaria, acessórios e ferragens
-                para móveis. Equipamentos e ferramentas para marcenaria com ótimos
-                preços e condições.
+                <strong>Gasômetro Madeiras | Ramuth & Ramuth LTDA</strong> -
+                Loja especializada em máquinas para marcenaria, acessórios e
+                ferragens para móveis. Equipamentos e ferramentas para
+                marcenaria com ótimos preços e condições.
               </p>
             </span>
           </div>
