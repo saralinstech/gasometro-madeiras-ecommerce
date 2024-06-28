@@ -3,9 +3,12 @@ import styled from 'styled-components'
 export const Container = styled.section`
   height: 10.688rem;
   width: 100%;
+  max-width: var(--max-width);
+  margin: var(--margin-global);
+  padding: 0 6rem;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 `
 export const CategoryOption = styled.a`
