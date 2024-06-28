@@ -68,7 +68,7 @@ export const CartButton = styled(SearchButton)`
   span {
     background-color: var(--red-dark);
     color: var(--white);
-    padding: 5px 9px;
+    padding: 0.313rem 0.563rem;
     border-radius: 50%;
     font-size: 0.6rem;
 

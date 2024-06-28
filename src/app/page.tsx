@@ -12,7 +12,6 @@ export default function Home() {
       <Categories />
       <FullScreenBanner />
       <DoubleBanner />
-      <p>oi mundo</p>
       <NewsLetter />
     </main>
   )
