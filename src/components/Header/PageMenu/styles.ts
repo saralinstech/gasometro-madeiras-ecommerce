@@ -4,7 +4,7 @@ export const Container = styled.nav`
   width: 100%;
   max-width: var(--max-width);
   margin: var(--margin-global);
-  height: 4rem;
+  height: 4.25rem;
   color: var(--gray-02);
 
   display: flex;
