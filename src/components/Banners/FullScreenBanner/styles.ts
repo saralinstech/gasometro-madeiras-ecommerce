@@ -75,7 +75,7 @@ export const Banner = styled.div`
     left: 182px;
 
     &:hover {
-      background-color: #e84e0ed1;
+      background-color: #ba3e0b;
     }
   }
 `
