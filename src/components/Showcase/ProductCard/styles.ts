@@ -43,7 +43,7 @@ export const Container = styled.section`
   }
 `
 
-export const ContainerProductData = styled.section`
+export const ContainerProductData = styled.div`
   padding: 0.75rem 1rem;
   border-radius: 10px;
 
