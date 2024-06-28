@@ -63,7 +63,8 @@ table {
   --gray-09: #434343;
   --black: #000000;
   --body-font: 'pt', sans;
-  --max-padding: 2rem;
+  --margin-global: 0 7rem;
+  --max-width: 1217px;
 }
 `
 
