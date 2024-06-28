@@ -88,7 +88,7 @@ export const Container = styled.div`
 
   .container-image-background {
     width: 50%;
-    min-width: 640px;
+    min-width: 40rem;
     height: 21.625rem;
     background-image: url('/banners/hero/background.png');
     background-position: center;
