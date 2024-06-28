@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    background-color: white;
+  background-color: white;
+  overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;

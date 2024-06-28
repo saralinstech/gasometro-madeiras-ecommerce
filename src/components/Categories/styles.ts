@@ -6,6 +6,7 @@ export const Container = styled.section`
   max-width: var(--max-width);
   margin: var(--margin-global);
   padding: 0 6rem;
+  padding-bottom: 0.8rem;
 
   display: flex;
   justify-content: space-between;

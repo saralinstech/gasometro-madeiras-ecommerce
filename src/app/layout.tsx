@@ -8,8 +8,9 @@ import Footer from '@/components/Footer'
 const pt = PT_Sans({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata: Metadata = {
-  title: 'Home',
-  description: 'E-commerce de madeiras, compensados e acessórios',
+  title: 'Gasômetro Madeiras',
+  description:
+    'Loja especializada em máquinas para marcenaria, acessórios e ferragens para móveis. Equipamentos e ferramentas para marcenaria com ótimos preços e condições.',
 }
 
 export default function RootLayout({
@@ -18,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt">
       <body className={pt.className}>
         <GlobalStyle />
         <Header />
