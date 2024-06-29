@@ -6,6 +6,7 @@ import DoubleBanner from '@/components/Banners/DoubleBanner'
 import NewsLetter from '@/components/NewsLetter'
 import Showcase from '@/components/Showcase'
 import Hero from '@/components/Hero'
+import Partners from '@/components/Partners'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <FullScreenBanner />
       <Showcase />
       <DoubleBanner />
+      <Partners />
       <NewsLetter />
     </main>
   )
