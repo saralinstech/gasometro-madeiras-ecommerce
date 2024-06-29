@@ -7,6 +7,7 @@ import NewsLetter from '@/components/NewsLetter'
 import Showcase from '@/components/Showcase'
 import Hero from '@/components/Hero'
 import Partners from '@/components/Partners'
+import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Showcase />
       <DoubleBanner />
       <Partners />
+      <Testimonials />
       <NewsLetter />
     </main>
   )
